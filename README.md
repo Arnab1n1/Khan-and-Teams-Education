@@ -1,510 +1,713 @@
-# Khan & Teams Education Website
+**# Khan & Teams Education Website**
 
-> A responsive PHP and MySQL based education consultancy website developed as an academic and industrial attachment project.
+\> A responsive PHP and MySQL based education consultancy website developed as an academic and industrial attachment project.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/PHP-8.2-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.2">
-  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
-  <img src="https://img.shields.io/badge/HTML5-Frontend-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/JavaScript-Interactions-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/XAMPP-Local%20Development-FB7A24?style=for-the-badge&logo=xampp&logoColor=white" alt="XAMPP">
-</p>
+\<p *align*="center">
 
----
+  \<img src="https\://img.shields.io/badge/PHP-8.2-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.2">
 
-## Project Overview
+  \<img src="https\://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
 
-**Khan & Teams Education** is a responsive education consultancy website developed with **PHP, MySQL, HTML, CSS, and JavaScript**.
+  \<img src="https\://img.shields.io/badge/HTML5-Frontend-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+
+  \<img src="https\://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+
+  \<img src="https\://img.shields.io/badge/JavaScript-Interactions-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+
+  \<img src="https\://img.shields.io/badge/XAMPP-Local%20Development-FB7A24?style=for-the-badge&logo=xampp&logoColor=white" alt="XAMPP">
+
+\</p>
+
+**---**
+
+**## Project Overview**
+
+**\*\*Khan & Teams Education\*\*** is a responsive education consultancy website developed with **\*\*PHP, MySQL, HTML, CSS, and JavaScript\*\***.
 
 The project combines a modern consultancy-style frontend with a functional backend for:
 
-- Dynamic program information
-- Database-connected forms
-- Program CRUD operations
-- Application and message management
-- Reusable website components
-- Responsive layouts
-- Administrative data management
+\- Dynamic program information
+
+\- Database-connected forms
+
+\- Program CRUD operations
+
+\- Application and message management
+
+\- Reusable website components
+
+\- Responsive layouts
+
+\- Administrative data management
 
 The website includes reusable header and footer components, dedicated program pages, database-driven content, user submission forms, and an admin panel for program and submission management.
 
----
+**---**
 
-## Objectives
+**## Objectives**
 
-- Build a responsive and user-friendly education consultancy website.
-- Develop the website using PHP and MySQL with XAMPP.
-- Connect frontend pages with a relational database.
-- Display program information dynamically from MySQL.
-- Store application, contact, and partner form submissions.
-- Implement CRUD operations for program management.
-- Create an admin area for managing programs and submitted data.
-- Maintain a clean and reusable project structure.
+\- Build a responsive and user-friendly education consultancy website.
 
----
+\- Develop the website using PHP and MySQL with XAMPP.
 
-## Key Features
+\- Connect frontend pages with a relational database.
 
-### Responsive Website Interface
+\- Display program information dynamically from MySQL.
 
-- Responsive navigation bar
-- Programs dropdown menu
-- Hero and banner sections
-- Service cards
-- Study destination cards
-- Student success stories
-- Call-to-action sections
-- Reusable footer
-- Mobile-responsive layouts
-- Floating WhatsApp button
-- Back-to-top interaction
+\- Store application, contact, and partner form submissions.
 
-### Main Website Pages
+\- Implement CRUD operations for program management.
 
-| Page | Description |
-| --- | --- |
-| **Home** | Main landing page with services, destinations, statistics, success stories and CTA |
-| **About Us** | Company overview, mission, values and compliance information |
-| **Services** | Education consultancy services and service descriptions |
-| **Contact** | Payment information, partner programme and contact forms |
-| **Apply Now** | Student application form |
-| **PPP 2025** | Dynamic Professional Practice Programme details |
-| **PhD/MRes Proposal** | Dynamic research proposal and supervisor support details |
-| **English Courses** | Dynamic English and communication course details |
-| **Education ROI Add-ons** | Dynamic ROI success stories |
+\- Create an admin area for managing programs and submitted data.
 
----
+\- Maintain a clean and reusable project structure.
 
-## Dynamic Programs
+**---**
+
+**## Key Features**
+
+**### Responsive Website Interface**
+
+\- Responsive navigation bar
+
+\- Programs dropdown menu
+
+\- Hero and banner sections
+
+\- Service cards
+
+\- Study destination cards
+
+\- Student success stories
+
+\- Call-to-action sections
+
+\- Reusable footer
+
+\- Mobile-responsive layouts
+
+\- Floating WhatsApp button
+
+\- Back-to-top interaction
+
+**### Main Website Pages**
+
+\| Page | Description |
+
+\| --- | --- |
+
+\| **\*\*Home\*\*** | Main landing page with services, destinations, statistics, success stories and CTA |
+
+\| **\*\*About Us\*\*** | Company overview, mission, values and compliance information |
+
+\| **\*\*Services\*\*** | Education consultancy services and service descriptions |
+
+\| **\*\*Contact\*\*** | Payment information, partner programme and contact forms |
+
+\| **\*\*Apply Now\*\*** | Student application form |
+
+\| **\*\*PPP 2025\*\*** | Dynamic Professional Practice Programme details |
+
+\| **\*\*PhD/MRes Proposal\*\*** | Dynamic research proposal and supervisor support details |
+
+\| **\*\*English Courses\*\*** | Dynamic English and communication course details |
+
+\| **\*\*Education ROI Add-ons\*\*** | Dynamic ROI success stories |
+
+**---**
+
+**## Dynamic Programs**
 
 Program information is connected to MySQL rather than being fully hardcoded in the program pages.
 
 The program system uses:
 
-- `programs`
-- `program_sections`
-- `roi_stories`
+\- \`programs\`
+
+\- \`program_sections\`
+
+\- \`roi_stories\`
 
 Program detail pages retrieve their data from the database using program slugs.
 
-```mermaid
+\`\`\`mermaid
+
 flowchart LR
-    A["Programs Dropdown"] --> B["PPP 2025"]
-    A --> C["PhD/MRes Proposal"]
-    A --> D["English Courses"]
-    A --> E["Education ROI"]
 
-    B --> F[("MySQL")]
-    C --> F
-    D --> F
-    E --> F
+    A["Programs Dropdown"] --> B["PPP 2025"]
 
-    F --> G["programs"]
-    F --> H["program_sections"]
-    F --> I["roi_stories"]
-```
+    A --> C["PhD/MRes Proposal"]
 
----
+    A --> D["English Courses"]
 
-## Form Processing
+    A --> E["Education ROI"]
+
+    B --> F[("MySQL")]
+
+    C --> F
+
+    D --> F
+
+    E --> F
+
+    F --> G["programs"]
+
+    F --> H["program_sections"]
+
+    F --> I["roi_stories"]
+
+\`\`\`
+
+**---**
+
+**## Form Processing**
 
 The website contains three database-connected submission systems.
 
-### Application Form
+**### Application Form**
 
-`apply.now.php` collects:
+\`apply.now\.php\` collects:
 
-- Full Name
-- Email
-- Phone Number
-- Address
+\- Full Name
+
+\- Email
+
+\- Phone Number
+
+\- Address
 
 Submissions are stored in:
 
-```text
-applications
-```
+\`\`\`text
 
-### Contact Form
+applications
+
+\`\`\`
+
+**### Contact Form**
 
 The Contact page collects:
 
-- Full Name
-- Email Address
-- Phone Number
-- Destination Interest
-- Message
-- PPP Interest
+\- Full Name
+
+\- Email Address
+
+\- Phone Number
+
+\- Destination Interest
+
+\- Message
+
+\- PPP Interest
 
 Submissions are stored in:
 
-```text
-contact_messages
-```
+\`\`\`text
 
-### Partner Application Form
+contact_messages
+
+\`\`\`
+
+**### Partner Application Form**
 
 The Partner Application form collects:
 
-- Full Name
-- Agency Name
-- Country
-- Phone Number
-- Email Address
-- Experience
-- Agreement
+\- Full Name
+
+\- Agency Name
+
+\- Country
+
+\- Phone Number
+
+\- Email Address
+
+\- Experience
+
+\- Agreement
 
 Submissions are stored in:
 
-```text
+\`\`\`text
+
 partner_applications
-```
 
----
+\`\`\`
 
-## Database Workflow
+**---**
 
-```mermaid
+**## Database Workflow**
+
+\`\`\`mermaid
+
 flowchart TB
-    W["Khan & Teams Education Website"]
 
-    W --> A["Apply Now Form"]
-    W --> C["Contact Form"]
-    W --> P["Partner Application Form"]
+    W["Khan & Teams Education Website"]
 
-    A --> DB[("MySQL Database<br/>khan_academy")]
-    C --> DB
-    P --> DB
+    W --> A["Apply Now Form"]
 
-    DB --> AT["applications"]
-    DB --> CT["contact_messages"]
-    DB --> PT["partner_applications"]
+    W --> C["Contact Form"]
 
-    AD["Admin Panel"] --> CRUD["Programs CRUD"]
+    W --> P["Partner Application Form"]
 
-    CRUD --> PR["programs"]
-    PR --> PS["program_sections"]
-    PR --> ROI["roi_stories"]
+    A --> DB[("MySQL Database\<br/>khan_academy")]
 
-    DB --> PR
-    DB --> PS
-    DB --> ROI
-```
+    C --> DB
 
----
+    P --> DB
 
-## Admin Panel
+    DB --> AT["applications"]
+
+    DB --> CT["contact_messages"]
+
+    DB --> PT["partner_applications"]
+
+    AD["Admin Panel"] --> CRUD["Programs CRUD"]
+
+    CRUD --> PR["programs"]
+
+    PR --> PS["program_sections"]
+
+    PR --> ROI["roi_stories"]
+
+    DB --> PR
+
+    DB --> PS
+
+    DB --> ROI
+
+\`\`\`
+
+**---**
+
+**## Admin Panel**
 
 The admin area currently includes:
 
-- Dashboard
-- Program listing
-- Add Program
-- Edit Program
-- Delete Program
-- Application listing
-- Contact message listing
-- Application status update
-- Contact message status update
+\- Dashboard
 
-### Program CRUD
+\- Program listing
 
-| Operation | Implementation |
-| --- | --- |
-| **Create** | Add a new program |
-| **Read** | Display programs from MySQL |
-| **Update** | Edit existing program information |
-| **Delete** | Remove a program |
+\- Add Program
 
----
+\- Edit Program
 
-## Database Design
+\- Delete Program
+
+\- Application listing
+
+\- Contact message listing
+
+\- Application status update
+
+\- Contact message status update
+
+**### Program CRUD**
+
+\| Operation | Implementation |
+
+\| --- | --- |
+
+\| **\*\*Create\*\*** | Add a new program |
+
+\| **\*\*Read\*\*** | Display programs from MySQL |
+
+\| **\*\*Update\*\*** | Edit existing program information |
+
+\| **\*\*Delete\*\*** | Remove a program |
+
+**---**
+
+**## Database Design**
 
 Database name:
 
-```text
+\`\`\`text
+
 khan_academy
-```
 
-### Main Tables
+\`\`\`
 
-| Table | Purpose |
-| --- | --- |
-| `programs` | Stores program information |
-| `program_sections` | Stores sections/cards for program detail pages |
-| `roi_stories` | Stores Education ROI success stories |
-| `applications` | Stores student applications |
-| `contact_messages` | Stores contact form messages |
-| `partner_applications` | Stores partner applications |
-| `leads` | Lead collection structure |
-| `blogs` | Blog management structure |
-| `admin_users` | Admin user structure |
+**### Main Tables**
+
+\| Table | Purpose |
+
+\| --- | --- |
+
+\| \`programs\` | Stores program information |
+
+\| \`program_sections\` | Stores sections/cards for program detail pages |
+
+\| \`roi_stories\` | Stores Education ROI success stories |
+
+\| \`applications\` | Stores student applications |
+
+\| \`contact_messages\` | Stores contact form messages |
+
+\| \`partner_applications\` | Stores partner applications |
+
+\| \`leads\` | Lead collection structure |
+
+\| \`blogs\` | Blog management structure |
+
+\| \`admin_users\` | Admin user structure |
 
 Database setup and starter data:
 
-```text
+\`\`\`text
+
 database/khan_academy.sql
-```
 
----
+\`\`\`
 
-## Project Structure
+**---**
 
-```mermaid
-mindmap
-  root((Khan-and-Teams-Education))
-    admin
-      index.php
-      programs.php
-      add-program.php
-      edit-program.php
-      delete-program.php
-      applications.php
-      messages.php
-    assets
-      images
-    config
-      database.php
-    css
-      style.css
-    database
-      khan_academy.sql
-    includes
-      header.php
-      footer.php
-    js
-      script.js
-    roi
-      index.php
-    Main Pages
-      index.php
-      about.php
-      services.php
-      contact.php
-      apply.now.php
-      ppp.php
-      phd_proposal.php
-      english_courses.php
-      programs.php
-    Project Files
-      README.md
-      .gitignore
+**## Project Structure
+
+```text
+Khan-and-Teams-Education/
+│
+├── admin/
+│   ├── add-program.php
+│   ├── applications.php
+│   ├── delete-program.php
+│   ├── edit-program.php
+│   ├── index.php
+│   ├── messages.php
+│   └── programs.php
+│
+├── assets/
+│   └── images/
+│
+├── config/
+│   └── database.php
+│
+├── css/
+│   └── style.css
+│
+├── database/
+│   └── khan_academy.sql
+│
+├── includes/
+│   ├── header.php
+│   └── footer.php
+│
+├── js/
+│   └── script.js
+│
+├── roi/
+│   └── index.php
+│
+├── screenshots/
+│   ├── english-courses.png
+│   ├── home-desktop.png
+│   ├── home-mobile.png
+│   ├── phd-mres.png
+│   ├── ppp.png
+│   └── roi.png
+│
+├── about.php
+├── apply.now.php
+├── contact.php
+├── english_courses.php
+├── index.php
+├── phd_proposal.php
+├── ppp.php
+├── programs.php
+├── services.php
+│
+├── .gitignore
+└── README.md
 ```
 
 ### Folder Responsibilities
 
-| Folder | Responsibility |
-| --- | --- |
-| `admin/` | Backend management pages for programs, applications and contact messages |
-| `assets/images/` | Website images and branding assets |
-| `config/` | Database connection |
-| `css/` | Main website stylesheet |
-| `database/` | SQL database setup and backup |
-| `includes/` | Reusable header and footer components |
-| `js/` | Frontend JavaScript interactions |
-| `roi/` | Education ROI page and related nested resources |
+\| Folder | Responsibility |
 
----
+\| --- | --- |
 
-## Technologies
+\| \`admin/\` | Backend management pages for programs, applications and contact messages |
 
-| Technology | Purpose |
-| --- | --- |
-| **PHP** | Server-side development and database operations |
-| **MySQL** | Relational database |
-| **HTML5** | Website structure |
-| **CSS3** | Responsive styling and visual design |
-| **JavaScript** | Frontend interactions |
-| **Font Awesome** | Icons |
-| **XAMPP** | Local PHP/MySQL development environment |
-| **phpMyAdmin** | Database management |
-| **Git & GitHub** | Version control and project hosting |
+\| \`assets/images/\` | Website images and branding assets |
 
----
+\| \`config/\` | Database connection |
 
-## Local Setup
+\| \`css/\` | Main website stylesheet |
 
-### 1. Install XAMPP
+\| \`database/\` | SQL database setup and backup |
+
+\| \`includes/\` | Reusable header and footer components |
+
+\| \`js/\` | Frontend JavaScript interactions |
+
+\| \`roi/\` | Education ROI page and related nested resources |
+
+\---
+
+\## Technologies
+
+\| Technology | Purpose |
+
+\| --- | --- |
+
+\| \*\*PHP\*\* | Server-side development and database operations |
+
+\| \*\*MySQL\*\* | Relational database |
+
+\| \*\*HTML5\*\* | Website structure |
+
+\| \*\*CSS3\*\* | Responsive styling and visual design |
+
+\| \*\*JavaScript\*\* | Frontend interactions |
+
+\| \*\*Font Awesome\*\* | Icons |
+
+\| \*\*XAMPP\*\* | Local PHP/MySQL development environment |
+
+\| \*\*phpMyAdmin\*\* | Database management |
+
+\| \*\*Git & GitHub\*\* | Version control and project hosting |
+
+\---
+
+\## Local Setup
+
+\### 1. Install XAMPP
 
 Start:
 
-```text
-Apache
-MySQL
-```
+\`\`\`text
 
-### 2. Place the Project
+Apache
+
+MySQL
+
+\`\`\`
+
+**### 2. Place the Project**
 
 Copy the project into:
 
-```text
-C:\xampp\htdocs\Khan-and-Teams-Education
-```
+\`\`\`text
 
-### 3. Import the Database
+C:\xampp\htdocs\Khan-and-Teams-Education
+
+\`\`\`
+
+**### 3. Import the Database**
 
 Open:
 
-```text
-http://localhost/phpmyadmin
-```
+\`\`\`text
+
+http\://localhost/phpmyadmin
+
+\`\`\`
 
 Import:
 
-```text
-database/khan_academy.sql
-```
+\`\`\`text
 
-### 4. Check Database Configuration
+database/khan_academy.sql
+
+\`\`\`
+
+**### 4. Check Database Configuration**
 
 Open:
 
-```text
+\`\`\`text
+
 config/database.php
-```
+
+\`\`\`
 
 Default local configuration:
 
-```text
+\`\`\`text
+
 Host: localhost
+
 Database: khan_academy
+
 Username: root
+
 Password: empty
-```
 
-### 5. Run the Website
+\`\`\`
 
-```text
-http://localhost/Khan-and-Teams-Education/
-```
+**### 5. Run the Website**
 
-### 6. Open the Admin Area
+\`\`\`text
 
-```text
-http://localhost/Khan-and-Teams-Education/admin/
-```
+http\://localhost/Khan-and-Teams-Education/
 
----
+\`\`\`
 
-## Screenshots
+**### 6. Open the Admin Area**
 
-### Home Page — Desktop
+\`\`\`text
 
-![Home Page Desktop](screenshots/home-desktop.png)
+http\://localhost/Khan-and-Teams-Education/admin/
 
-### Home Page — Mobile
+\`\`\`
 
-![Home Page Mobile](screenshots/home-mobile.png)
+**---**
 
-### PPP 2025
+**## Screenshots**
 
-![PPP 2025](screenshots/ppp.png)
+**### Home Page — Desktop**
 
-### PhD/MRes Proposal
+![Home Page Desktop]\(screenshots/home-desktop.png)
 
-![PhD/MRes Proposal](screenshots/phd-mres.png)
+**### Home Page — Mobile**
 
-### English Courses
+![Home Page Mobile]\(screenshots/home-mobile.png)
 
-![English Courses](screenshots/english-courses.png)
+**### PPP 2025**
 
-### Education ROI
+![PPP 2025]\(screenshots/ppp.png)
 
-![Education ROI](screenshots/roi.png)
+**### PhD/MRes Proposal**
 
----
+![PhD/MRes Proposal]\(screenshots/phd-mres.png)
 
-## Implementation Highlights
+**### English Courses**
 
-### Reusable Components
+![English Courses]\(screenshots/english-courses.png)
+
+**### Education ROI**
+
+![Education ROI]\(screenshots/roi.png)
+
+**---**
+
+**## Implementation Highlights**
+
+**### Reusable Components**
 
 Common website elements are separated into:
 
-```text
+\`\`\`text
+
 includes/header.php
+
 includes/footer.php
-```
+
+\`\`\`
 
 This keeps the layout consistent and reduces repeated code.
 
-### Database Connectivity
+**### Database Connectivity**
 
-The project uses **PDO** for MySQL connectivity through:
+The project uses **\*\*PDO\*\*** for MySQL connectivity through:
 
-```text
+\`\`\`text
+
 config/database.php
-```
+
+\`\`\`
 
 Prepared statements are used for database-driven form processing and CRUD operations.
 
-### Dynamic Content
+**### Dynamic Content**
 
 Program pages retrieve information from MySQL so program data can be updated without rewriting the full page layout.
 
-### Form Validation
+**### Form Validation**
 
 Form handling includes required-field validation and email validation before inserting records into the database.
 
-### Responsive Design
+**### Responsive Design**
 
 The interface adapts to desktop, tablet and mobile screen sizes.
 
----
+**---**
 
-## Development Status
+**## Development Status**
 
-### Completed
+**### Completed**
 
-- [x] Responsive homepage
-- [x] About page
-- [x] Services page
-- [x] Contact page
-- [x] Application page
-- [x] Programs dropdown
-- [x] PPP program page
-- [x] PhD/MRes program page
-- [x] English Courses page
-- [x] Education ROI page
-- [x] MySQL database integration
-- [x] Dynamic program content
-- [x] Application form database storage
-- [x] Contact form database storage
-- [x] Partner application database storage
-- [x] Admin dashboard
-- [x] Program CRUD
-- [x] Application management
-- [x] Contact message management
+\- [x] Responsive homepage
 
----
+\- [x] About page
 
-## Future Improvements
+\- [x] Services page
 
-- Secure admin authentication
-- Full blog management
-- Lead management interface
-- Email notifications
-- File upload management
-- Online deployment
-- Production database configuration
+\- [x] Contact page
 
----
+\- [x] Application page
 
-## Conclusion
+\- [x] Programs dropdown
+
+\- [x] PPP program page
+
+\- [x] PhD/MRes program page
+
+\- [x] English Courses page
+
+\- [x] Education ROI page
+
+\- [x] MySQL database integration
+
+\- [x] Dynamic program content
+
+\- [x] Application form database storage
+
+\- [x] Contact form database storage
+
+\- [x] Partner application database storage
+
+\- [x] Admin dashboard
+
+\- [x] Program CRUD
+
+\- [x] Application management
+
+\- [x] Contact message management
+
+**---**
+
+**## Future Improvements**
+
+\- Admin authentication
+
+\- Full blog management
+
+\- Lead management interface
+
+\- Email notifications
+
+\- File upload management
+
+\- Online deployment
+
+\- Production database configuration
+
+**---**
+
+**## Conclusion**
 
 This project combines a responsive frontend with a functional PHP and MySQL backend. It demonstrates practical implementation of reusable components, dynamic database-driven content, form processing, CRUD operations, and administrative data management in a real-world website structure.
 
----
+**---**
 
-## Project Purpose
+**## Project Purpose**
 
 This website was developed as an academic and industrial attachment project to gain practical experience in:
 
-- Full-stack web development
-- PHP programming
-- MySQL database management
-- CRUD operations
-- Form processing
-- Responsive UI development
-- Local server deployment using XAMPP
-- Version control with Git and GitHub
+\- Full-stack web development
+
+\- PHP programming
+
+\- MySQL database management
+
+\- CRUD operations
+
+\- Form processing
+
+\- Responsive UI development
+
+\- Local server deployment using XAMPP
+
+\- Version control with Git and GitHub
