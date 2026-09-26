@@ -265,16 +265,6 @@ Khan-and-Teams-Education/
 │
 ├── assets/
 │   └── images/
-│       ├── about-bg.jpg
-│       ├── australia.jpg
-│       ├── hero-bg.jpg
-│       ├── logo.png
-│       ├── malaysia.jpg
-│       ├── new-zealand.jpg
-│       ├── other-destinations.jpg
-│       ├── services-bg.jpg
-│       ├── thailand.jpg
-│       └── uk.jpg
 │
 ├── config/
 │   └── database.php
@@ -286,8 +276,8 @@ Khan-and-Teams-Education/
 │   └── khan_academy.sql
 │
 ├── includes/
-│   ├── footer.php
-│   └── header.php
+│   ├── header.php
+│   └── footer.php
 │
 ├── js/
 │   └── script.js
@@ -301,9 +291,7 @@ Khan-and-Teams-Education/
 │   ├── home-mobile.png
 │   ├── phd-mres.png
 │   ├── ppp.png
-│   ├── roi.png
-│   ├── project-structure-bottom.png
-│   └── project-structure-top.png
+│   └── roi.png
 │
 ├── about.php
 ├── apply.now.php
@@ -314,8 +302,10 @@ Khan-and-Teams-Education/
 ├── ppp.php
 ├── programs.php
 ├── services.php
+│
 ├── .gitignore
 └── README.md
+```
 
 ### Folder Responsibilities
 
@@ -329,6 +319,7 @@ Khan-and-Teams-Education/
 | `includes/` | Reusable header and footer components |
 | `js/` | Frontend JavaScript interactions |
 | `roi/` | Education ROI page and related nested resources |
+| `screenshots/` | Website preview screenshots used in project documentation |
 
 ---
 
@@ -465,7 +456,7 @@ Prepared statements are used for database-driven form processing and CRUD operat
 
 ### Dynamic Content
 
-Program pages retrieve information from MySQL so program data can be updated without rewriting the full page layout.
+Program pages retrieve information from MySQL so that program data can be updated without rewriting the full page layout.
 
 ### Form Validation
 
@@ -505,7 +496,7 @@ The interface adapts to desktop, tablet and mobile screen sizes.
 
 ## Future Improvements
 
-- Secure admin authentication
+- Admin authentication
 - Full blog management
 - Lead management interface
 - Email notifications
@@ -517,7 +508,17 @@ The interface adapts to desktop, tablet and mobile screen sizes.
 
 ## Conclusion
 
-This project combines a responsive frontend with a functional PHP and MySQL backend. It demonstrates practical implementation of reusable components, dynamic database-driven content, form processing, CRUD operations, and administrative data management in a real-world website structure.
+This project combines a responsive frontend with a functional PHP and MySQL backend.
+
+It demonstrates practical implementation of:
+
+- Reusable website components
+- Dynamic database-driven content
+- Form processing
+- CRUD operations
+- Database management
+- Responsive UI development
+- Administrative data management
 
 ---
 
